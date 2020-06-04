@@ -12,9 +12,11 @@ namespace Snake2020
         public int y;
         public char sym;
         
-        public Point()
+        public Point(int _x, int _y, char _sym)
         {
-            Console.WriteLine();
+            x = _x;
+            y = _y;
+            sym = _sym;
         }
         public void Draw()
         {
