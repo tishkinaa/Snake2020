@@ -10,22 +10,18 @@ namespace Snake2020
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point(1, 3, '*');
-            p1.Draw();
+            Console.SetBufferSize(120, 30); //устанавливает размер окна, и убирает возможность перемотки
 
-            Point p2 = new Point(4, 5, '#');                   
-            p2.Draw();
 
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
+            HorizontalLine upLine = new HorizontalLine(0, 118, 0, '+');
+            HorizontalLine downLine = new HorizontalLine(0, 118, 29, '+');
+            VerticalLine leftLine = new VerticalLine(0, 29, 0, '+');
+            VerticalLine rightLine = new VerticalLine(0, 29, 118, '+');
 
-            HorizontalLine hline = new HorizontalLine(5, 10, 8, '+');
-            VerticalLine vline = new VerticalLine(9, 15, 5, '/');
-            hline.Drow();
-            vline.Drow();
-            
-
+            leftLine.Drow();
+            rightLine.Drow();
+            upLine.Drow();
+            downLine.Drow();
             Console.ReadLine();
         }
     }
