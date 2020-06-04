@@ -1,0 +1,6 @@
+E:\programming\Snake2020\Snake2020\bin\Debug\Snake2020.exe.config
+E:\programming\Snake2020\Snake2020\bin\Debug\Snake2020.exe
+E:\programming\Snake2020\Snake2020\bin\Debug\Snake2020.pdb
+E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.csprojAssemblyReference.cache
+E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.exe
+E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.pdb
