@@ -18,10 +18,10 @@ namespace Snake2020
             VerticalLine leftLine = new VerticalLine(0, 29, 0, '+');
             VerticalLine rightLine = new VerticalLine(0, 29, 118, '+');
 
-            leftLine.Drow();
-            rightLine.Drow();
-            upLine.Drow();
-            downLine.Drow();
+            leftLine.figureDraw();
+            rightLine.figureDraw();
+            upLine.figureDraw();
+            downLine.figureDraw();
             Console.ReadLine();
         }
     }

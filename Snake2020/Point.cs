@@ -18,7 +18,7 @@ namespace Snake2020
             y = _y;
             sym = _sym;
         }
-        public void Draw()
+        public void pointDraw()
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
