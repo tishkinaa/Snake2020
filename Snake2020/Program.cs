@@ -22,6 +22,13 @@ namespace Snake2020
             rightLine.figureDraw();
             upLine.figureDraw();
             downLine.figureDraw();
+
+            Point p = new Point(4, 4, '*');
+
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+
+            snake.figureDraw();
+
             Console.ReadLine();
         }
     }
