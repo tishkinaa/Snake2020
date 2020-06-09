@@ -59,5 +59,10 @@ namespace Snake2020
         {
             return x + ", " + y + ", " + sym;
         }
+
+        public bool IsHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
+        }
     }
 }

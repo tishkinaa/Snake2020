@@ -9,7 +9,7 @@ namespace Snake2020
     class Snake : Figure
     {
         public Direction direction;
-
+        public int speed = 100;
         public Snake(Point tail, int length, Direction _direction)
         {
             direction = _direction;
@@ -52,6 +52,19 @@ namespace Snake2020
                 direction = Direction.DOWN;
             else if (key == ConsoleKey.UpArrow)
                 direction = Direction.UP;
+        }
+
+        internal bool Eat(Point food)
+        {
+            Point head = GetNextPoint();
+            if (head.IsHit(food))
+            {
+                food.sym = head.sym;
+                pList.Add(food);
+                return true;
+            }
+            else 
+                return false;
         }
     }
 }

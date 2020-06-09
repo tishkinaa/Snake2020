@@ -30,17 +30,34 @@ namespace Snake2020
 
             snake.figureDraw();
 
+            FoodCreator foodCreator = new FoodCreator(118, 29, '$');
+
+            Point food = foodCreator.CreateFood();
+
+            food.pointDraw();
+
+
             while(true)
             {
+                if (snake.Eat(food))
+                {
+                    food = foodCreator.CreateFood();
+                    food.pointDraw();
+                    snake.speed -= 10;
+                }
+                else
+                {
+                    snake.Move();
+                }
+                Thread.Sleep(snake.speed);
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }
-                Thread.Sleep(100);
-                snake.Move();
-            }
-            Console.ReadLine();
+                
+                /*snake.Move();*/
+            }            
         }
     }
 }
