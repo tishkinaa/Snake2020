@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Snake2020
@@ -29,6 +30,11 @@ namespace Snake2020
 
             snake.figureDraw();
 
+            for(int i = 0; i < 10; i++) {
+                snake.Move();
+                Thread.Sleep(300);
+            }
+            
             Console.ReadLine();
         }
     }

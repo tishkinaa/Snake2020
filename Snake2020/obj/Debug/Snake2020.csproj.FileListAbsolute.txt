@@ -4,3 +4,10 @@ E:\programming\Snake2020\Snake2020\bin\Debug\Snake2020.pdb
 E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.csprojAssemblyReference.cache
 E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.exe
 E:\programming\Snake2020\Snake2020\obj\Debug\Snake2020.pdb
+C:\Users\Stend7\Documents\C#\Snake2020\obj\Debug\Snake2020.csprojAssemblyReference.cache
+C:\Users\Stend7\Documents\C#\Snake2020\obj\Debug\Snake2020.csproj.CoreCompileInputs.cache
+C:\Users\Stend7\Documents\C#\Snake2020\obj\Debug\Snake2020.exe
+C:\Users\Stend7\Documents\C#\Snake2020\obj\Debug\Snake2020.pdb
+C:\Users\Stend7\Documents\C#\Snake2020\bin\Debug\Snake2020.exe.config
+C:\Users\Stend7\Documents\C#\Snake2020\bin\Debug\Snake2020.exe
+C:\Users\Stend7\Documents\C#\Snake2020\bin\Debug\Snake2020.pdb

@@ -49,6 +49,12 @@ namespace Snake2020
             Console.Write(sym);
         }
 
+        public void pointClear()
+        {
+            sym = ' ';
+            pointDraw();
+        }
+
         public override string ToString()
         {
             return x + ", " + y + ", " + sym;
